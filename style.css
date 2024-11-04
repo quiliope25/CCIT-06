@@ -1,0 +1,156 @@
+#banner{
+height: 90vh;
+ background: linear-gradient(to right,hsla(0, 0%, 0%, 0), rgba(44, 42, 42, 0.315)),url('coc.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+
+
+.btn{
+    padding:20px 25px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    border-radius: 70px;
+    transition: all 0.5s ease;
+}
+
+.btn-brand{
+    background-color: rgba(231, 180, 11, 0.966);
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.btn-brand:hover{
+    border: 2px solid #fff;
+}
+
+section {
+    padding: 100px 0;
+}
+
+#about h3 {
+    font-size: 55px;
+    color: rgb(0, 0, 0);
+}
+#section {
+    background-color: #000000;
+}
+
+.card-img-top {
+    width: 40%;
+}
+.card {
+    transition: all 0.4s ease;
+}
+.card:hover {
+    background-color: rgb(0, 0, 0);
+}
+.card:hover .card-text, .card:hover .card-title {
+    color: #fff;
+}
+#services .btn-brand:hover {
+    background-color: #fff !important;
+    color: rgb(7, 7, 7);
+}
+.testimonials img {
+    width: 65px;
+    border-radius: 50%;
+}
+.testimonials {
+    border: 2px solid rgb(2, 2, 2);
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+
+}
+
+.testimonials a {
+    color: rgb(48, 6, 238);
+}
+#faq {
+    background-color: #fafafa;
+
+}
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+      margin-bottom: 20px;
+      border-radius: 0 !important;
+
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s; color 0.3s;
+
+
+}
+
+.accordion-body {
+    border-left: 3px solid rgb (57, 149, 57);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #fafafa;
+
+}
+
+.accordion-button:not(.collaped) {
+    background-color: rgb (57, 149, 57);
+    color: #100de9;
+
+}
+
+.accordion-button:hover {
+    background-color: rgb (57, 149, 57) ;
+    color: #2a07f1;
+}
+#cta{
+    height: 90vh;
+     background: linear-gradient(to right,hsla(0, 0%, 0%, 0.986),  rgba(44, 42, 42, 0.315)),url('coc.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+    }
+    footer{
+        padding: 50px;
+        padding-bottom: 50px;
+        background-color: rgb(243, 166, 1);
+    }
+    #footer ul.list-unstyled li a {
+    color:#fff
+    text-decoration: none;
+    }
+    #footer ul.list-unstyled li:hover a {
+        color: rgb(8,47,8);
+    }
+    .btn-outline-light {
+        border-color:#fff;
+        color: #FFF;
+        border-radius: 0;
+    }
+    @media  and (max-width:767px) {
+        @about img {
+            height: 300px;
+            width 300px;
+        }
+    
+        #services .card {
+            margin-top: 20px;
+        }
+    
+        section{
+            padding: 60px 20px;
+        }
+    }
